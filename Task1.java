@@ -50,10 +50,12 @@ class ATM_Machine {
 
 class BankAccount {
     String accountHolderName;
+    String accountNumber;
     int balance = 0;
     public BankAccount(String accountHolderName,int firstMandatoryDeposit) {
         this.accountHolderName = accountHolderName;
         this.balance = firstMandatoryDeposit;
+        this.accountNumber = Long.toString((long) (Math.random() * 900_000_000_000L) + 100_000_000_000L);
     }
 }
 
