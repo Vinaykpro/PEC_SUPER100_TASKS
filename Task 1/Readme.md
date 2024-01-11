@@ -1,4 +1,4 @@
-## Task 1
+# Task 1
 Bank Account Class: 
 Create a BankAccount class with attributes for account holder name, account number, and balance. 
 Include methods to deposit, withdraw, and display the current balance. 
